@@ -1,5 +1,18 @@
 [
  {
+  "id": "2020.6.19_Ｋ-2",
+  "bread": "雑種",
+  "place": "うるま市石川",
+  "image": "/files/animal/image/10991/large_image.JPG",
+  "note": "緑リード／石川警察署",
+  "addedOn": "2020年6月19日",
+  "deadlineOn": "2020年6月30日",
+  "color": "黒茶白",
+  "sex": "オス",
+  "size": "中",
+  "collar": "有り 赤"
+ },
+ {
   "id": "2020.6.26_H-2",
   "bread": "雑種",
   "place": "名護市中山",
@@ -24,19 +37,6 @@
   "sex": "メス",
   "size": "小",
   "collar": "無し"
- },
- {
-  "id": "2020.6.19_Ｋ-2",
-  "bread": "雑種",
-  "place": "うるま市石川",
-  "image": "/files/animal/image/10991/large_image.JPG",
-  "note": "緑リード／石川警察署",
-  "addedOn": "2020年6月19日",
-  "deadlineOn": "2020年6月30日",
-  "color": "黒茶白",
-  "sex": "オス",
-  "size": "中",
-  "collar": "有り 赤"
  },
  {
   "id": "2020.6.18_M-1",
