@@ -7,17 +7,19 @@ import (
 
 	"github.com/PuerkitoBio/goquery"
 	"github.com/gocolly/colly/v2"
+	"github.com/gocolly/colly/v2/queue"
 	"github.com/kimihito/okinaniwel/model"
 	"github.com/mitchellh/mapstructure"
 )
 
+var url = "https://www.aniwel-pref.okinawa/animals/accommodate/dogs"
 var dateRe = regexp.MustCompile(`[0-9]{1}\/[0-9]{1,2}\s*(\W*)（\W*）`)
 
 var dogs = []model.Dog{}
 
 var indexToMapKey = []string{"id", "addedOn", "deadlineOn", "place", "color", "sex", "size", "age", "collar", "note", "image"}
 
-func Run() {
+func Run() []model.Dog {
 	// Instantiate default collector
 	c := colly.NewCollector(
 		// Visit only domains: aniwel-pref.okinawa
@@ -26,11 +28,13 @@ func Run() {
 
 	detailCollector := c.Clone()
 
+	q, _ := queue.New(2, &queue.InMemoryQueueStorage{MaxSize: 10000})
+
 	// On every a element which has href attribute call callback
 	c.OnHTML("#main .lists > a", func(e *colly.HTMLElement) {
 		link := e.Attr("href")
 		// Print link
-		fmt.Printf("Link found: %q -> %s\n", strings.TrimSpace(e.Text), link)
+		fmt.Printf("Link found: %q -> %s\n", strings.Join(strings.Fields(e.Text), " "), link)
 		detailCollector.Visit(e.Request.AbsoluteURL(link))
 	})
 
@@ -71,8 +75,11 @@ func Run() {
 	})
 
 	// Start scraping on https://www.aniwel-pref.okinawa
-	c.Visit("https://www.aniwel-pref.okinawa/animals/accommodate/dogs")
-	fmt.Println("Finish")
-	fmt.Println(dogs)
-
+	// c.Visit(url)
+	for i := 1; i < 5; i++ {
+		q.AddURL(fmt.Sprintf("%s/page:%d", url, i))
+	}
+	q.Run(c)
+	fmt.Println("Crwaling is complete")
+	return dogs
 }

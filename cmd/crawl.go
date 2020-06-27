@@ -1,6 +1,9 @@
 package cmd
 
 import (
+	"encoding/json"
+	"io/ioutil"
+
 	"github.com/kimihito/okinaniwel/crawler"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
@@ -15,7 +18,17 @@ func init() {
 var crawlCmd = &cobra.Command{
 	Use:   "crawl",
 	Short: "Crawl dogs from pref-okinawa",
-	Run: func(cmd *cobra.Command, args []string) {
-		crawler.Run()
+	RunE: func(cmd *cobra.Command, args []string) error {
+		dogs := crawler.Run()
+		file, err := json.MarshalIndent(dogs, "", " ")
+		if err != nil {
+			return err
+		}
+
+		err = ioutil.WriteFile("dogs.json", file, 0644)
+		if err != nil {
+			return err
+		}
+		return nil
 	},
 }
