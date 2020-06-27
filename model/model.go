@@ -12,4 +12,5 @@ type Dog struct {
 	Sex        string `json:"sex"`
 	Size       string `json:"size"`
 	Collar     string `json:"collar"`
+	URL        string `json:"url"`
 }

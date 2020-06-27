@@ -52,11 +52,11 @@ func Run() []model.Dog {
 
 		title := dateRe.FindStringSubmatch(titleText)[1]
 
-		items := map[string]string{"breed": strings.TrimSpace(title)}
+		items := map[string]string{"breed": strings.TrimSpace(title), "url": e.Request.URL.String()}
 		e.DOM.Find(".box").First().Find("tr>td").Each(func(i int, s *goquery.Selection) {
 			if s.HasClass("photo") {
 				if src, ok := s.Find("img").First().Attr("src"); ok {
-					items["image"] = src
+					items["image"] = e.Request.URL.Scheme + "://" + e.Request.URL.Host + src
 				}
 			} else {
 				text := s.Text()
