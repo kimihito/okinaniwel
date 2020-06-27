@@ -1,4 +1,7 @@
-on: [push]
+name: crawl
+on:
+  schedule:
+    - cron: "0 18 * * *"
 
 jobs:
   crawl:
