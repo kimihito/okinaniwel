@@ -25,7 +25,7 @@ var crawlCmd = &cobra.Command{
 			return err
 		}
 
-		err = ioutil.WriteFile("dogs.json", file, 0644)
+		err = ioutil.WriteFile("dist/dogs.json", file, 0644)
 		if err != nil {
 			return err
 		}
