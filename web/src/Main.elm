@@ -79,7 +79,12 @@ viewDogs model =
 viewDog : Dog -> Html Msg
 viewDog dog =
     tr []
-        [   td []
+        [
+             td []
+                [ text dog.breed ]
+        ,    td []
+                [ text dog.place ]
+        ,    td []
                 [ text dog.id ]
         ]
 
