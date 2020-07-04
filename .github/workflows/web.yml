@@ -7,9 +7,6 @@ on:
 jobs:
   gh-pages:
     runs-on: ubuntu-18.04
-    defaults:
-      run:
-        working-directory: web
     steps:
       - name: Install Node.js
         uses: actions/setup-node@v1
@@ -32,15 +29,22 @@ jobs:
             ${{ runner.os }}-yarn-
 
       - run: yarn install
+        working-directory: ./web
+
       - run: yarn elm-app build
+        working-directory: ./web
+
       - run: touch build/.nojekyll
+        working-directory: ./web
+
       - name: Store dogs.json
         run: |
           git fetch --no-tags --prune --depth=1 origin +refs/heads/*:refs/remotes/origin/*
-          git checkout origin/gh-pages -- ../dogs.json && git mv ../dogs.json ./build
+          git checkout origin/gh-pages -- dogs.json
+          mv dogs.json ./web/build
 
       - name: Push build to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          publish_dir: ./web/build
