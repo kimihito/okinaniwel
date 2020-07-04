@@ -1,14 +1,17 @@
 module Main exposing (main)
 import Browser
 import Http
-import Html exposing (Html, div, text, h2, table, tr, td)
+import Html exposing (Html, div, text, input, table, tr, td)
+import Html.Events exposing(onInput)
 import Json.Decode exposing (Decoder, field, string)
+import Html.Attributes exposing (placeholder, value)
 
 type alias Dog
     = { id : String
       , breed : String
       , place : String
       }
+type Status = Failure | Loading | Success
 
 -- MAIN
 
@@ -22,20 +25,29 @@ main =
         }
 
 -- MODEL
-type Model
-  = Failure
-  | Loading
-  | Success (List Dog)
+type alias Model =
+  {
+    status: Status
+  , dogs : List Dog
+  , filteredDogs : List Dog
+  , input : String
+
+  }
 
 init : () -> (Model, Cmd Msg)
 init _ =
-    (Loading, getDogs)
+    ({ status = Loading
+    , dogs = []
+    , filteredDogs = []
+    , input = ""
+    }, getDogs)
 
 
 -- UPDATE
 
 type Msg
     = GotDogs (Result Http.Error (List Dog))
+    | InputChange String
 
 update : Msg -> Model -> (Model, Cmd Msg)
 update msg model =
@@ -43,10 +55,15 @@ update msg model =
        GotDogs result ->
         case result of
             Ok dogs ->
-                (Success dogs, Cmd.none)
+                ({ model | dogs = dogs, filteredDogs = dogs, status = Success }, Cmd.none)
             Err _ ->
-                (Failure, Cmd.none)
+                ({ model | status = Failure }, Cmd.none)
 
+       InputChange text ->
+        if text /= "" then
+            ( { model | input = text, filteredDogs = List.filter (\dog -> String.contains model.input dog.place) model.dogs}, Cmd.none)
+        else
+            ( { model | input = text, filteredDogs = model.dogs}, Cmd.none)
 -- SUBSCRIPTIONS
 
 subscriptions : Model -> Sub Msg
@@ -57,24 +74,18 @@ subscriptions model =
 
 view : Model -> Html Msg
 view model =
-    div []
-        [ h2 [] [ text "dogs"]
-        , viewDogs model
-        ]
-
-viewDogs : Model -> Html Msg
-viewDogs model =
-    case model of
+    case model.status of
         Failure ->
             div []
                 [ text "I could not load dogs." ]
-
         Loading ->
             text "loading..."
-
-        Success dogs ->
-            table []
-                (List.map viewDog dogs)
+        Success ->
+            div []
+                [ input [ placeholder "検索", value model.input, onInput InputChange] []
+                , table []
+                    (List.map viewDog model.filteredDogs)
+                ]
 
 viewDog : Dog -> Html Msg
 viewDog dog =
