@@ -29,7 +29,6 @@ type alias Model =
   {
     status: Status
   , dogs : List Dog
-  , filteredDogs : List Dog
   , input : String
 
   }
@@ -38,7 +37,6 @@ init : () -> (Model, Cmd Msg)
 init _ =
     ({ status = Loading
     , dogs = []
-    , filteredDogs = []
     , input = ""
     }, getDogs)
 
@@ -55,15 +53,13 @@ update msg model =
        GotDogs result ->
         case result of
             Ok dogs ->
-                ({ model | dogs = dogs, filteredDogs = dogs, status = Success }, Cmd.none)
+                ({ model | dogs = dogs, status = Success }, Cmd.none)
             Err _ ->
                 ({ model | status = Failure }, Cmd.none)
 
        InputChange text ->
-        if text /= "" then
-            ( { model | input = text, filteredDogs = List.filter (\dog -> String.contains model.input dog.place) model.dogs}, Cmd.none)
-        else
-            ( { model | input = text, filteredDogs = model.dogs}, Cmd.none)
+        ( { model | input = text }, Cmd.none)
+
 -- SUBSCRIPTIONS
 
 subscriptions : Model -> Sub Msg
@@ -81,10 +77,17 @@ view model =
         Loading ->
             text "loading..."
         Success ->
+            let
+                filteredDogs =
+                    if model.input /= "" then
+                        List.filter(\dog -> String.contains model.input dog.place) model.dogs
+                    else
+                        model.dogs
+            in
             div []
                 [ input [ placeholder "検索", value model.input, onInput InputChange] []
                 , table []
-                    (List.map viewDog model.filteredDogs)
+                    (List.map viewDog filteredDogs)
                 ]
 
 viewDog : Dog -> Html Msg
