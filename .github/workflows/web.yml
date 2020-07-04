@@ -37,8 +37,7 @@ jobs:
       - name: Store dogs.json
         run: |
           git fetch --no-tags --prune --depth=1 origin +refs/heads/*:refs/remotes/origin/*
-          git checkout origin/gh-pages -- dogs.json
-          mv dogs.json ./build
+          git checkout origin/gh-pages -- ../dogs.json && git mv ../dogs.json ./build
 
       - name: Push build to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
