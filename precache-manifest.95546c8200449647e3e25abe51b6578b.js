@@ -4,7 +4,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/okinaniwel/favicon.ico"
   },
   {
-    "revision": "d430d45f81daa40f3665d72bad466c5c",
+    "revision": "65d98a690faef2b4727fab05480d5112",
     "url": "/okinaniwel/index.html"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/okinaniwel/static/css/vendors~main.8bbe462c.chunk.css"
   },
   {
-    "revision": "d88ad990b5c4e1b0a937",
-    "url": "/okinaniwel/static/js/main.d88ad990.chunk.js"
+    "revision": "fe577f1fb322d4636317",
+    "url": "/okinaniwel/static/js/main.fe577f1f.chunk.js"
   },
   {
     "revision": "944c76979cfcf874f1fa",
