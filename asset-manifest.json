@@ -1,15 +1,15 @@
 {
-  "main.js": "/static/js/main.c96100c8.chunk.js",
-  "main.js.map": "/static/js/main.c96100c8.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.1b922744.js",
-  "runtime~main.js.map": "/static/js/runtime~main.1b922744.js.map",
-  "vendors~main.css": "/static/css/vendors~main.8bbe462c.chunk.css",
-  "vendors~main.js": "/static/js/vendors~main.f9f6e2b9.chunk.js",
-  "vendors~main.js.map": "/static/js/vendors~main.f9f6e2b9.chunk.js.map",
-  "./service-worker.js": "/./service-worker.js",
-  "favicon.ico": "/favicon.ico",
-  "index.html": "/index.html",
-  "logo.svg": "/logo.svg",
-  "manifest.json": "/manifest.json",
-  "precache-manifest.acd1f86dbccfd4599e2a2a73363395da.js": "/precache-manifest.acd1f86dbccfd4599e2a2a73363395da.js"
+  "main.js": "/okinaniwel/static/js/main.ab29f55d.chunk.js",
+  "main.js.map": "/okinaniwel/static/js/main.ab29f55d.chunk.js.map",
+  "runtime~main.js": "/okinaniwel/static/js/runtime~main.944c7697.js",
+  "runtime~main.js.map": "/okinaniwel/static/js/runtime~main.944c7697.js.map",
+  "vendors~main.css": "/okinaniwel/static/css/vendors~main.8bbe462c.chunk.css",
+  "vendors~main.js": "/okinaniwel/static/js/vendors~main.f9f6e2b9.chunk.js",
+  "vendors~main.js.map": "/okinaniwel/static/js/vendors~main.f9f6e2b9.chunk.js.map",
+  "./service-worker.js": "/okinaniwel/./service-worker.js",
+  "favicon.ico": "/okinaniwel/favicon.ico",
+  "index.html": "/okinaniwel/index.html",
+  "logo.svg": "/okinaniwel/logo.svg",
+  "manifest.json": "/okinaniwel/manifest.json",
+  "precache-manifest.2b321608bbd78c9d917c91df3a0c4b91.js": "/okinaniwel/precache-manifest.2b321608bbd78c9d917c91df3a0c4b91.js"
 }
