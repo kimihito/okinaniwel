@@ -77,17 +77,10 @@ view model =
         Loading ->
             text "loading..."
         Success ->
-            let
-                filteredDogs =
-                    if model.input /= "" then
-                        List.filter(\dog -> String.contains model.input dog.place) model.dogs
-                    else
-                        model.dogs
-            in
             div []
                 [ input [ placeholder "検索", value model.input, onInput InputChange] []
                 , table []
-                    (List.map viewDog filteredDogs)
+                    (model.dogs |> List.filter (\dog -> String.contains model.input dog.place) |> List.map viewDog)
                 ]
 
 viewDog : Dog -> Html Msg
