@@ -1,0 +1,15 @@
+{
+  "main.js": "/okinaniwel/static/js/main.d88ad990.chunk.js",
+  "main.js.map": "/okinaniwel/static/js/main.d88ad990.chunk.js.map",
+  "runtime~main.js": "/okinaniwel/static/js/runtime~main.944c7697.js",
+  "runtime~main.js.map": "/okinaniwel/static/js/runtime~main.944c7697.js.map",
+  "vendors~main.css": "/okinaniwel/static/css/vendors~main.8bbe462c.chunk.css",
+  "vendors~main.js": "/okinaniwel/static/js/vendors~main.f9f6e2b9.chunk.js",
+  "vendors~main.js.map": "/okinaniwel/static/js/vendors~main.f9f6e2b9.chunk.js.map",
+  "./service-worker.js": "/okinaniwel/./service-worker.js",
+  "favicon.ico": "/okinaniwel/favicon.ico",
+  "index.html": "/okinaniwel/index.html",
+  "logo.svg": "/okinaniwel/logo.svg",
+  "manifest.json": "/okinaniwel/manifest.json",
+  "precache-manifest.4b588cb5815adccdeabbce977669fece.js": "/okinaniwel/precache-manifest.4b588cb5815adccdeabbce977669fece.js"
+}
