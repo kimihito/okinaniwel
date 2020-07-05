@@ -28,20 +28,6 @@
   "url": "https://www.aniwel-pref.okinawa/animals/accommodate_view/11027"
  },
  {
-  "id": "2020.6.25_C-1",
-  "bread": "雑種",
-  "place": "宜野座村松田",
-  "image": "https://www.aniwel-pref.okinawa/files/animal/image/11026/large_image.JPG",
-  "note": "Bw:12kg",
-  "addedOn": "2020年6月25日",
-  "deadlineOn": "2020年7月3日",
-  "color": "トラ（茶黒）",
-  "sex": "メス",
-  "size": "中",
-  "collar": "無し",
-  "url": "https://www.aniwel-pref.okinawa/animals/accommodate_view/11026"
- },
- {
   "id": "2020.7.3_H-1",
   "bread": "雑種",
   "place": "名護市伊佐川",
@@ -54,20 +40,6 @@
   "size": "中",
   "collar": "有り 赤",
   "url": "https://www.aniwel-pref.okinawa/animals/accommodate_view/11124"
- },
- {
-  "id": "2020.6.25＿Ｓ-1",
-  "bread": "ﾀﾞｯｸｽﾌﾝﾄﾞ",
-  "place": "南風原町字兼城",
-  "image": "https://www.aniwel-pref.okinawa/files/animal/image/11021/large_image.JPG",
-  "note": "Ｂｗ：4.5ｋｇ",
-  "addedOn": "2020年6月25日",
-  "deadlineOn": "2020年7月3日",
-  "color": "チョコ",
-  "sex": "オス",
-  "size": "小",
-  "collar": "無し",
-  "url": "https://www.aniwel-pref.okinawa/animals/accommodate_view/11021"
  },
  {
   "id": "2020.7.3_S-2",
@@ -96,6 +68,34 @@
   "size": "中",
   "collar": "無し",
   "url": "https://www.aniwel-pref.okinawa/animals/accommodate_view/11121"
+ },
+ {
+  "id": "2020.6.25_C-1",
+  "bread": "雑種",
+  "place": "宜野座村松田",
+  "image": "https://www.aniwel-pref.okinawa/files/animal/image/11026/large_image.JPG",
+  "note": "Bw:12kg",
+  "addedOn": "2020年6月25日",
+  "deadlineOn": "2020年7月3日",
+  "color": "トラ（茶黒）",
+  "sex": "メス",
+  "size": "中",
+  "collar": "無し",
+  "url": "https://www.aniwel-pref.okinawa/animals/accommodate_view/11026"
+ },
+ {
+  "id": "2020.6.25＿Ｓ-1",
+  "bread": "ﾀﾞｯｸｽﾌﾝﾄﾞ",
+  "place": "南風原町字兼城",
+  "image": "https://www.aniwel-pref.okinawa/files/animal/image/11021/large_image.JPG",
+  "note": "Ｂｗ：4.5ｋｇ",
+  "addedOn": "2020年6月25日",
+  "deadlineOn": "2020年7月3日",
+  "color": "チョコ",
+  "sex": "オス",
+  "size": "小",
+  "collar": "無し",
+  "url": "https://www.aniwel-pref.okinawa/animals/accommodate_view/11021"
  },
  {
   "id": "2020.7.3_C-3",
