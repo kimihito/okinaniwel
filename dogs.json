@@ -1,17 +1,17 @@
 [
  {
-  "id": "2020.7.17_H-1",
+  "id": "2020.7.9_C-2",
   "bread": "雑種",
-  "place": "本部町伊豆味",
-  "image": "https://www.aniwel-pref.okinawa/files/animal/image/11250/large_image.JPG",
-  "note": "Bw:8.7kg",
-  "addedOn": "2020年7月17日",
-  "deadlineOn": "2020年7月29日",
-  "color": "茶黒白",
+  "place": "金武町並里",
+  "image": "https://www.aniwel-pref.okinawa/files/animal/image/11166/large_image.JPG",
+  "note": "",
+  "addedOn": "2020年7月9日",
+  "deadlineOn": "2020年7月17日",
+  "color": "黒",
   "sex": "メス",
   "size": "中",
   "collar": "無し",
-  "url": "https://www.aniwel-pref.okinawa/animals/accommodate_view/11250"
+  "url": "https://www.aniwel-pref.okinawa/animals/accommodate_view/11166"
  },
  {
   "id": "2020.7.9_C-1",
@@ -28,18 +28,18 @@
   "url": "https://www.aniwel-pref.okinawa/animals/accommodate_view/11165"
  },
  {
-  "id": "2020.7.17_S-2",
+  "id": "2020.7.17_H-1",
   "bread": "雑種",
-  "place": "西原町小波津",
-  "image": "https://www.aniwel-pref.okinawa/files/animal/image/11249/large_image.JPG",
-  "note": "Bw:17kg",
+  "place": "本部町伊豆味",
+  "image": "https://www.aniwel-pref.okinawa/files/animal/image/11250/large_image.JPG",
+  "note": "Bw:8.7kg",
   "addedOn": "2020年7月17日",
   "deadlineOn": "2020年7月29日",
-  "color": "白茶",
-  "sex": "オス",
+  "color": "茶黒白",
+  "sex": "メス",
   "size": "中",
-  "collar": "有り 赤白柄",
-  "url": "https://www.aniwel-pref.okinawa/animals/accommodate_view/11249"
+  "collar": "無し",
+  "url": "https://www.aniwel-pref.okinawa/animals/accommodate_view/11250"
  },
  {
   "id": "2020.7.17_S-1",
@@ -84,20 +84,6 @@
   "url": "https://www.aniwel-pref.okinawa/animals/accommodate_view/11229"
  },
  {
-  "id": "2020.7.15_M-3",
-  "bread": "雑種",
-  "place": "名護市宇茂佐",
-  "image": "https://www.aniwel-pref.okinawa/files/animal/image/11228/large_image.JPG",
-  "note": "",
-  "addedOn": "2020年7月15日",
-  "deadlineOn": "2020年7月27日",
-  "color": "茶白黒",
-  "sex": "オス",
-  "size": "中",
-  "collar": "無し",
-  "url": "https://www.aniwel-pref.okinawa/animals/accommodate_view/11228"
- },
- {
   "id": "2020.7.15_M-1",
   "bread": "雑種",
   "place": "宜野湾市伊佐",
@@ -110,20 +96,6 @@
   "size": "中",
   "collar": "無し",
   "url": "https://www.aniwel-pref.okinawa/animals/accommodate_view/11223"
- },
- {
-  "id": "2020.7.14_H-1",
-  "bread": "雑種",
-  "place": "名護市為又",
-  "image": "https://www.aniwel-pref.okinawa/files/animal/image/11215/large_image.JPG",
-  "note": "Bw:8.2kg／負傷",
-  "addedOn": "2020年7月14日",
-  "deadlineOn": "2020年7月22日",
-  "color": "茶白",
-  "sex": "オス",
-  "size": "中",
-  "collar": "無し",
-  "url": "https://www.aniwel-pref.okinawa/animals/accommodate_view/11215"
  },
  {
   "id": "2020.7.14_C-1",
@@ -222,19 +194,5 @@
   "size": "中",
   "collar": "有り 紐",
   "url": "https://www.aniwel-pref.okinawa/animals/accommodate_view/11180"
- },
- {
-  "id": "2020.7.9_C-2",
-  "bread": "雑種",
-  "place": "金武町並里",
-  "image": "https://www.aniwel-pref.okinawa/files/animal/image/11166/large_image.JPG",
-  "note": "",
-  "addedOn": "2020年7月9日",
-  "deadlineOn": "2020年7月17日",
-  "color": "黒",
-  "sex": "メス",
-  "size": "中",
-  "collar": "無し",
-  "url": "https://www.aniwel-pref.okinawa/animals/accommodate_view/11166"
  }
 ]
