@@ -56,20 +56,6 @@
   "url": "https://www.aniwel-pref.okinawa/animals/accommodate_view/11180"
  },
  {
-  "id": "2020.7.9_C-2",
-  "bread": "雑種",
-  "place": "金武町並里",
-  "image": "https://www.aniwel-pref.okinawa/files/animal/image/11166/large_image.JPG",
-  "note": "",
-  "addedOn": "2020年7月9日",
-  "deadlineOn": "2020年7月17日",
-  "color": "黒",
-  "sex": "メス",
-  "size": "中",
-  "collar": "無し",
-  "url": "https://www.aniwel-pref.okinawa/animals/accommodate_view/11166"
- },
- {
   "id": "2020.7.22_H-2",
   "bread": "雑種",
   "place": "東村字川田",
@@ -82,20 +68,6 @@
   "size": "中",
   "collar": "無し",
   "url": "https://www.aniwel-pref.okinawa/animals/accommodate_view/11281"
- },
- {
-  "id": "2020.7.9_C-1",
-  "bread": "雑種",
-  "place": "金武町並里",
-  "image": "https://www.aniwel-pref.okinawa/files/animal/image/11165/large_image.JPG",
-  "note": "疾病",
-  "addedOn": "2020年7月9日",
-  "deadlineOn": "2020年7月17日",
-  "color": "茶",
-  "sex": "メス",
-  "size": "中",
-  "collar": "無し",
-  "url": "https://www.aniwel-pref.okinawa/animals/accommodate_view/11165"
  },
  {
   "id": "2020.7.22_H-1",
@@ -152,6 +124,34 @@
   "size": "中",
   "collar": "無し",
   "url": "https://www.aniwel-pref.okinawa/animals/accommodate_view/11250"
+ },
+ {
+  "id": "2020.7.9_C-2",
+  "bread": "雑種",
+  "place": "金武町並里",
+  "image": "https://www.aniwel-pref.okinawa/files/animal/image/11166/large_image.JPG",
+  "note": "",
+  "addedOn": "2020年7月9日",
+  "deadlineOn": "2020年7月17日",
+  "color": "黒",
+  "sex": "メス",
+  "size": "中",
+  "collar": "無し",
+  "url": "https://www.aniwel-pref.okinawa/animals/accommodate_view/11166"
+ },
+ {
+  "id": "2020.7.9_C-1",
+  "bread": "雑種",
+  "place": "金武町並里",
+  "image": "https://www.aniwel-pref.okinawa/files/animal/image/11165/large_image.JPG",
+  "note": "疾病",
+  "addedOn": "2020年7月9日",
+  "deadlineOn": "2020年7月17日",
+  "color": "茶",
+  "sex": "メス",
+  "size": "中",
+  "collar": "無し",
+  "url": "https://www.aniwel-pref.okinawa/animals/accommodate_view/11165"
  },
  {
   "id": "2020.7.16＿Ｓ-1",
