@@ -70,20 +70,6 @@
   "url": "https://www.aniwel-pref.okinawa/animals/accommodate_view/11185"
  },
  {
-  "id": "2020.7.17_H-1",
-  "bread": "雑種",
-  "place": "本部町伊豆味",
-  "image": "https://www.aniwel-pref.okinawa/files/animal/image/11250/large_image.JPG",
-  "note": "Bw:8.7kg",
-  "addedOn": "2020年7月17日",
-  "deadlineOn": "2020年7月29日",
-  "color": "茶黒白",
-  "sex": "メス",
-  "size": "中",
-  "collar": "無し",
-  "url": "https://www.aniwel-pref.okinawa/animals/accommodate_view/11250"
- },
- {
   "id": "2020.7.10_M-1",
   "bread": "雑種",
   "place": "今帰仁村今泊",
@@ -140,20 +126,6 @@
   "url": "https://www.aniwel-pref.okinawa/animals/accommodate_view/11166"
  },
  {
-  "id": "2020.7.16＿Ｓ-1",
-  "bread": "雑種",
-  "place": "南風原町本部",
-  "image": "https://www.aniwel-pref.okinawa/files/animal/image/11242/large_image.JPG",
-  "note": "Bw:7.3kg",
-  "addedOn": "2020年7月16日",
-  "deadlineOn": "2020年7月28日",
-  "color": "茶白",
-  "sex": "メス",
-  "size": "中",
-  "collar": "有り 赤",
-  "url": "https://www.aniwel-pref.okinawa/animals/accommodate_view/11242"
- },
- {
   "id": "2020.7.9_C-1",
   "bread": "雑種",
   "place": "金武町並里",
@@ -166,6 +138,34 @@
   "size": "中",
   "collar": "無し",
   "url": "https://www.aniwel-pref.okinawa/animals/accommodate_view/11165"
+ },
+ {
+  "id": "2020.7.17_H-1",
+  "bread": "雑種",
+  "place": "本部町伊豆味",
+  "image": "https://www.aniwel-pref.okinawa/files/animal/image/11250/large_image.JPG",
+  "note": "Bw:8.7kg",
+  "addedOn": "2020年7月17日",
+  "deadlineOn": "2020年7月29日",
+  "color": "茶黒白",
+  "sex": "メス",
+  "size": "中",
+  "collar": "無し",
+  "url": "https://www.aniwel-pref.okinawa/animals/accommodate_view/11250"
+ },
+ {
+  "id": "2020.7.16＿Ｓ-1",
+  "bread": "雑種",
+  "place": "南風原町本部",
+  "image": "https://www.aniwel-pref.okinawa/files/animal/image/11242/large_image.JPG",
+  "note": "Bw:7.3kg",
+  "addedOn": "2020年7月16日",
+  "deadlineOn": "2020年7月28日",
+  "color": "茶白",
+  "sex": "メス",
+  "size": "中",
+  "collar": "有り 赤",
+  "url": "https://www.aniwel-pref.okinawa/animals/accommodate_view/11242"
  },
  {
   "id": "2020.7.15_M-2",
