@@ -1,31 +1,17 @@
 [
  {
-  "id": "2020.8.26_C-1",
+  "id": "2020.8.27_C-1",
   "bread": "雑種",
-  "place": "うるま市赤道",
-  "image": "https://www.aniwel-pref.okinawa/files/animal/image/11508/large_image.JPG",
-  "note": "Bw:10.8kg／疾病",
-  "addedOn": "2020年8月26日",
-  "deadlineOn": "2020年9月3日",
-  "color": "茶白黒",
+  "place": "沖縄市倉敷",
+  "image": "https://www.aniwel-pref.okinawa/files/animal/image/11517/large_image.JPG",
+  "note": "Bw:7.9kg",
+  "addedOn": "2020年8月27日",
+  "deadlineOn": "2020年9月4日",
+  "color": "白黒茶",
   "sex": "オス",
   "size": "中",
-  "collar": "有り 赤",
-  "url": "https://www.aniwel-pref.okinawa/animals/accommodate_view/11508"
- },
- {
-  "id": "2020.8.25_S-1",
-  "bread": "ﾀﾞｯｸｽ系",
-  "place": "浦添市勢理客",
-  "image": "https://www.aniwel-pref.okinawa/files/animal/image/11495/large_image.JPG",
-  "note": "Bw:3.7kg",
-  "addedOn": "2020年8月25日",
-  "deadlineOn": "2020年9月2日",
-  "color": "茶黒",
-  "sex": "メス",
-  "size": "小",
-  "collar": "有り 黒・黄星柄",
-  "url": "https://www.aniwel-pref.okinawa/animals/accommodate_view/11495"
+  "collar": "有り 紫系の柄",
+  "url": "https://www.aniwel-pref.okinawa/animals/accommodate_view/11517"
  },
  {
   "id": "2020.8.24_C-2",
